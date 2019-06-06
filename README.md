@@ -15,7 +15,8 @@
 
 #### Running the app
 
-- `npm start`
+- `npm run server`
+- `npm run logger`
 
 #### Tests
 

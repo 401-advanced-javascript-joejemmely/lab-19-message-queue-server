@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "server": "node server.js",
+    "logger": "node logger.js",
     "test": "jest --coverage --verbose",
     "lint": "eslint '**/*.js'"
   },
