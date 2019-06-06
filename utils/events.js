@@ -1,3 +1,7 @@
+/**
+ * @modules events
+ */
+
 module.exports = {
   files: {
     SAVE: 'SAVE',

@@ -6,6 +6,7 @@ const events = require('./utils/events.js');
 QServer.start();
 
 /**
+ * Files
  * Initiate a queue called “files” that monitors “save” and “error” events
  */
 const files = new QServer('files');
@@ -13,6 +14,7 @@ files.monitorEvent(events.files.SAVE);
 files.monitorEvent(events.files.ERROR);
 
 /**
+ * Database
  * Initiate a queue called “database” that monitors “create”, “read”, “update”, “delete” and “error” events
  */
 const database = new QServer('database');
