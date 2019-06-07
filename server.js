@@ -22,5 +22,6 @@ database.monitorEvent(events.database.CREATE);
 database.monitorEvent(events.database.READ);
 database.monitorEvent(events.database.UPDATE);
 database.monitorEvent(events.database.DELETE);
+database.monitorEvent(events.database.ERROR);
 
 console.log('Server is Up');

@@ -30,3 +30,7 @@ database.subscribe(events.database.UPDATE, ({ message }) => {
 database.subscribe(events.database.DELETE, ({ message }) => {
   console.log('💣 ', message);
 });
+
+database.subscribe(events.database.ERROR, ({ message }) => {
+  console.log('😱 ', message);
+});
