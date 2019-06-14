@@ -1,5 +1,7 @@
 'use strict';
 
+require('dotenv').config();
+
 const QClient = require('@nmq/q/client');
 const events = require('./utils/events.js');
 
